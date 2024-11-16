@@ -6,6 +6,7 @@ There will be no real money involved. The only form of monetization will be 5 da
 
 ## Layout of Website
 
+```D
 / - redirects to dashboard or login page
 /login - Login page
 /register - Register new users page (Button on login page)
@@ -30,6 +31,7 @@ There will be no real money involved. The only form of monetization will be 5 da
 /tokens/daily/login - Daily login bonus page
 /tokens/daily/ad-bonus/ - Daily ads page (Max of 5 ads per day)
 /messages - Send direct messages (Players can configure who can send them messages in their settings)
+```
 
 ## TODO
 

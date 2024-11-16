@@ -8,7 +8,7 @@ defmodule PhoenixNestWeb.Router do
   scope "/api", PhoenixNestWeb do
     pipe_through :api
 
-    post "/register", UserController, :create
+    post "/register", RegisterController, :create
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
